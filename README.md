@@ -92,7 +92,7 @@ O valor obtido deve ser comparado com a [tabela de distribuição de probabilida
 
 Felizmente, você não precisará se preocupar com nada dito no parágrafo anterior caso não queira.
 
-Ao utilizar os pacotes estatísticos de alguma linguagem de programação, você obterá o **p-valor** (ou *p-value*) e precisará apenas dele para tomar uma decisão quanto a negação (ou não) da hipótese nula. 
+Ao utilizar os pacotes estatísticos de alguma linguagem de programação, você obterá o [**p-valor**](https://medium.com/psicodata/o-que-o-p-valor-significa-2680dc4729e8) (ou *p-value*) e precisará apenas dele para tomar uma decisão quanto a negação (ou não) da hipótese nula. 
 
 # 3. Usos do teste
 
