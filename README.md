@@ -22,13 +22,13 @@ $H_1:$ as duas variáveis não são independentes
 
 <br>
 
-Assim como demais testes de hipótese, o cálculo do teste qui quadrado fornecerá um valor em sua distribuição. A partir deste valor, é possível calcular a probabilidade de observamos esse valor caso a hipótese nula ( $H_0$ ) seja verdadeira.
+Assim como demais [testes de hipótese](https://www.inf.ufsc.br/~andre.zibetti/probabilidade/teste-de-hipoteses.html), o cálculo do teste qui quadrado fornecerá um valor em sua distribuição. A partir deste valor, é possível calcular a probabilidade de observamos esse valor caso a hipótese nula ( $H_0$ ) seja verdadeira.
 
 Por padrão, tanto dentro da academia quanto em aplicações no mercado de trabalho, quando a probabilidade de observarmos $H_0$ é inferior a 0,05, recusamos a hipótese e seguimos com sua complementar.
 
 ## 2.2. Tabela de Contingência
 
-Para calcular o valor do teste, utilizamos uma tabela de contingência. A tabela de contingência combina os diferentes valores para cada variável analisada e retorna a ocorrência (contagem) desses valores no seu conjunto de dados.
+Para calcular o valor do teste, utilizamos uma [tabela de contingência] (https://pt.khanacademy.org/math/statistics-probability/analyzing-categorical-data/two-way-tables-for-categorical-data/a/two-way-tables-review). A tabela de contingência combina os diferentes valores para cada variável analisada e retorna a ocorrência (contagem) desses valores no seu conjunto de dados.
 
 | gender | Female | Male |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Caso as variáveis analisadas sejam independentes, não deveríamos observar uma
 
 Em nosso exemplo, se não há diferença entre ser do gênero feminino ou masculino, a proporção entre pessoas do gênero feminino e do gênero masculino para cada intervalo de ranking deveria ser similar.
 
-Dentro do pacote `pandas`, essa tabela pode ser criada com a função `crosstab`.
+No python, dentro do pacote `pandas`, essa tabela pode ser criada com a função `crosstab`.
 
 ## 2.3. Distribuição Qui-Quadrado
 
@@ -88,7 +88,7 @@ Valor esperado de pessoas com gênero masculino por ranking: $\displaystyle \fra
 
 Ao somarmos o valor de Qui-Quadrado para todas as combinações de valores das duas variáveis, temos o valor 42,39. 
 
-O valor obtido deve ser comparado com a tabela de distribuição de probabilidade. A título de curiosidade, com um grau de liberdade e um valor crítico definido em 0,05, o valor da distribuição será de 3,841. Como o valor obtido, 42,39, é superior ao valor da distribuição, negaríamos a hipótese nula.
+O valor obtido deve ser comparado com a [tabela de distribuição de probabilidade](https://www.ime.unicamp.br/~cnaber/Tabela%20da%20Qui-quadrado.pdf). A título de curiosidade, com 1 [grau de liberdade](https://blog.minitab.com/pt/quais-sao-os-graus-de-liberdade-nas-estatisticas) e um valor crítico definido em 0,05, o valor da distribuição será de 3,841. Como o valor obtido, 42,39, é superior ao valor da distribuição, negaríamos a hipótese nula.
 
 Felizmente, você não precisará se preocupar com nada dito no parágrafo anterior caso não queira.
 
