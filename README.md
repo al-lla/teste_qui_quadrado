@@ -28,7 +28,7 @@ Por padrão, tanto dentro da academia quanto em aplicações no mercado de traba
 
 ## 2.2. Tabela de Contingência
 
-Para calcular o valor do teste, utilizamos uma tabela de contingência. A tabela de contingência possui combina os diferentes valores para cada variável analisada e retorna a ocorrência (contagem) desses valores no seu conjunto de dados.
+Para calcular o valor do teste, utilizamos uma tabela de contingência. A tabela de contingência combina os diferentes valores para cada variável analisada e retorna a ocorrência (contagem) desses valores no seu conjunto de dados.
 
 | gender | Female | Male |
 | --- | --- | --- |
