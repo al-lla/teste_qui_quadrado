@@ -88,7 +88,7 @@ Valor esperado de pessoas com gênero masculino por ranking: $\displaystyle \fra
 
 Ao somarmos o valor de Qui-Quadrado para todas as combinações de valores das duas variáveis, temos o valor 42,39. 
 
-O valor obtido deve ser comparado com a [tabela de distribuição de probabilidade](https://www.ime.unicamp.br/~cnaber/Tabela%20da%20Qui-quadrado.pdf). A título de curiosidade, com 1 [grau de liberdade](https://blog.minitab.com/pt/quais-sao-os-graus-de-liberdade-nas-estatisticas) e um valor crítico definido em 0,05, o valor da distribuição será de 3,841. Como o valor obtido, 42,39, é superior ao valor da distribuição, negaríamos a hipótese nula.
+O valor obtido deve ser comparado com a [tabela de distribuição de probabilidade](https://www.ime.unicamp.br/~cnaber/Tabela%20da%20Qui-quadrado.pdf). A título de curiosidade, com 1 [grau de liberdade](https://blog.minitab.com/pt/quais-sao-os-graus-de-liberdade-nas-estatisticas) e um [valor crítico](https://support.minitab.com/pt-br/minitab/20/help-and-how-to/statistics/basic-statistics/supporting-topics/basics/what-is-a-critical-value/) definido em 0,05, o valor da distribuição será de 3,841. Como o valor obtido, 42,39, é superior ao valor da distribuição, negaríamos a hipótese nula.
 
 Felizmente, você não precisará se preocupar com nada dito no parágrafo anterior caso não queira.
 
